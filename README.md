@@ -72,9 +72,9 @@ y
 
 $$S_{xy} = \sum {y_i x_i} - \frac{(\sum y_i)(\sum x_i)}{n} = \sum y_i(x_i - \overline {x}) \tag{1.10}$$
 
-Entonces, una forma de expresarse la ecuación $(2.7)$ es
+Entonces, una forma de expresarse la ecuación $(1.7)$ es
 
-$$\hat{\beta}_1 = \frac{S_{xy}}{S_{xx}} \tag{1.11}$$
+$$\hat{\beta}_1 = \frac{S_xy}{S_xx} \tag{1.11}$$
 
 La diferencia entre el valor observado  $y_i$ y el valor ajustado correspondiente $\hat{y}_i$ se llama **residual**. Matematicamente, el i_ésimo residual es
 
@@ -84,6 +84,7 @@ Los residuales tienen un papel muy importante para investigar la **adecuación**
 
 ### **1.2.2 Propiedades de los estimadores por mínimos cuadrados y el modelo ajustado de regresión**
 
-### **1.2.3 Estimacion de** $\sigma^2$
+### **1.2.3 Estimacion de** 
+$\sigma^2$
 
 ## **1.3 Prueba de Hipotesis**
