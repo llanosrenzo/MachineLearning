@@ -40,13 +40,11 @@ $${{{\frac{\partial S}{\partial \beta_0}}\Bigg|}_{\hat{\beta}_0 , \hat{\beta}_1}
 
 y 
 
-$${{\frac{\partial S}{\partial\beta_1}\Bigg|}_{\hat{\beta}_0 \hat{\beta}_1}} =-2\sum {(y_i - \hat{\beta}_0 - \hat{\beta}_1x_i)} x_i = 0$$
+$${{\frac{\partial S}{\partial\beta_1}\Bigg|}_{\hat{\beta}_0 , \hat{\beta}_1}} =-2\sum {(y_i - \hat{\beta}_0 - \hat{\beta}_1x_i)} x_i = 0$$
 
 Se simplifican estas dos ecuaciones y se obtiene
 
-$$n\hat{\beta}_0 + {\hat{\beta}_{1}} {\sum_{i=1}^{n}}$$
-
-$$n\hat{\beta}_0 + \hat{\beta}_1\sum_{i=1}^{n}x_i = \sum_{i=1}^{n}y_i$$
+$$n\hat{\beta}_0 + \hat{\beta}_1\sum x_i = \sum_{i=1}^{n} y_i$$
 
 $$\hat{\beta}_0 \sum_{i=1}^{n}x_i + \hat{\beta}_1\sum_{i=1}^{n}x_i^2 = \sum_{i=1}^{n}y_i x_i \tag{1.5}$$
 
