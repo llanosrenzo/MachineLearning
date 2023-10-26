@@ -36,15 +36,15 @@ $$S(\beta_0, \beta_1) = \sum_{i=1}^{n}(y_i - \beta_0 - \beta_1x_i)^2 \tag{1.4}$$
 Los estimadores, por mínimos cuadrados, de $\beta_0$ y $\beta_1$, que se designarán por $\hat{\beta}_0$ y $\hat{\beta}_1$, deben satisfacer
 
 
-$${{{\frac{\partial S}{\partial \beta_0}}\Bigg|}_{\hat{\beta}_0 \hat{\beta}_1}} = - 2\sum_{i=1}^{n}$$
+$${{{\frac{\partial S}{\partial \beta_0}}\Bigg|}_{\hat{\beta}_0 \hat{\beta}_1}} =  {- 2 \sum_{i=1}^{n}}$$
 
 y 
 
-$${{\frac{\partial S}{\partial\beta_1}\Bigg|}_(\hat{\beta}_0 \hat{\beta}_1)} =-2\sum_{i=1}^{n}(y_i - \hat{\beta}_0 - \hat{\beta}_1x_i)x_i = 0$$
+$${{\frac{\partial S}{\partial\beta_1}\Bigg|}_{\hat{\beta}_0 \hat{\beta}_1}} =-2\sum_{i=1}^{n}(y_i - \hat{\beta}_0 - \hat{\beta}_1x_i)x_i = 0$$
 
 Se simplifican estas dos ecuaciones y se obtiene
 
-$n\hat{\beta}_0 + \hat{\beta}_1x\sum_{i=1}^{n} x_i $
+$$n\hat{\beta}_0 + \hat{\beta}_1 \sum_{i=1}^{n} x_i $$
 
 $$n\hat{\beta}_0 + \hat{\beta}_1\sum_{i=1}^{n}x_i = \sum_{i=1}^{n}y_i$$
 
