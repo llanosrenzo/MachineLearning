@@ -66,11 +66,11 @@ La ecuación $(2.8)$ produce un estimado puntual, de la media de $y$ para una de
 
 Como el denominador de la ecuación $(2.7)$ es la suma corregida de cuadrados de las $x_i$ y el numerador es la suma corregida de los productos cruzados de $x_i$ y $y_i$, estas ecuaciones se pueden escribir en una forma más compacta como sigue:
 
-$$S_{xx} = \sum x_i^2 - \frac{(\sum x_i)^2}{n} = \sum (x_i - \overline {x})^2 \tag {2.9}$$
+$$S_{xx} = \sum x_i^2 - \frac{(\sum x_i)^2}{n} = \sum (x_i - \overline {x})^2 \tag {1.9}$$
 
 y
 
-$$S_{xy} = \sum {y_i x_i} - \frac{(\sum y_i)(\sum x_i)}{n} = \sum y_i(x_i - \oveline {x}) \tag{1.10}$$
+$$S_{xy} = \sum {y_i x_i} - \frac{(\sum y_i)(\sum x_i)}{n} = \sum y_i(x_i - \overline {x}) \tag{1.10}$$
 
 Entonces, una forma de expresarse la ecuación $(2.7)$ es
 
@@ -84,7 +84,6 @@ Los residuales tienen un papel muy importante para investigar la **adecuación**
 
 ### **1.2.2 Propiedades de los estimadores por mínimos cuadrados y el modelo ajustado de regresión**
 
-### **1.2.3 Estimacion de ** 
-$\sigma^2$
+### **1.2.3 Estimacion de** $\sigma^2$
 
 ## **1.3 Prueba de Hipotesis**
