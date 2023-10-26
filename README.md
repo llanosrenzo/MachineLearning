@@ -46,5 +46,5 @@ Se simplifican estas dos ecuaciones y se obtiene
 
 $$n\hat{\beta}_0 + \hat{\beta}_1\sum x_i = \sum y_i$$
 
-$$\hat{\beta}_0 \sum_{i=1}^{n}x_i + \hat{\beta}_1\sum_{i=1}^{n}x_i^2 &= \sum_{i=1}^{n}y_i x_i \tag{1.5}$$
+$$\hat{\beta}_0 \sum x_i + \hat{\beta}_1\sum x_i^2 = \sum y_i x_i \tag{1.5}$$
 
