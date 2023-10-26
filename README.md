@@ -40,7 +40,7 @@ $${{{\frac{\partial S}{\partial \beta_0}}\Bigg|}_{\hat{\beta}_0 \hat{\beta}_1}} 
 
 y 
 
-$${{\frac{\partial S}{\partial \beta_1}\Bigg|}_{\hat{\beta}_0 \hat{\beta}_1}} =-2\sum_{i=1}^{n}(y_i - \hat{\beta}_0 - \hat{\beta}_1x_i)x_i = 0$$
+$${{\frac{\partial S}{\partial\beta_1}\Bigg|}_{\hat{\beta}_0 \hat{\beta}_1}} =-2\sum_{i=1}^{n}(y_i - \hat{\beta}_0 - \hat{\beta}_1x_i)x_i = 0$$
 
 Se simplifican estas dos ecuaciones y se obtiene
 
