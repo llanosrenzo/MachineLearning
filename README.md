@@ -27,7 +27,7 @@ Supongamos que hay n pares de datos: $(x_1,y_1),(x_2,y_2),...,(x_n,y_n)$.
 
 Para estimar $\beta_0$ y $\beta_1$ se usa el **método de mínimos cuadrados**. Esto es, se estiman $\beta_0$ y $\beta_1$ tales que la suma de los cuadrados de las diferencias entre las observaciones $y_i$ y la linea recta sea mínima.Según la ecuación $(1.1)$, se puede escribir
 
-$$y_i = \beta_0 + \beta_1x_i + \epsilon_i,    i= 1,2,..,n \tag{1.3}$$
+$$y_i = \beta_0 + \beta_1x_i + \epsilon_i,  \quad  i= 1,2,..,n \tag{1.3}$$
 
 Así, el criterio de mínimos cuadrados es
 
@@ -36,7 +36,7 @@ $$S(\beta_0, \beta_1) = \sum_{i=1}^{n}(y_i - \beta_0 - \beta_1x_i)^2 \tag{1.4}$$
 Los estimadores, por mínimos cuadrados, de $\beta_0$ y $\beta_1$, que se designarán por $\hat{\beta}_0$ y $\hat{\beta}_1$, deben satisfacer
 
 
-$${{\frac{\partial S}{\partial \beta_0}\Bigg|}_{\hat{\beta}_0 \hat{\beta}_1}} = - 2\sum_{i=1}^{n} $$
+$${{\frac{\partial S}{\partial \beta_0}\Bigg|}_{\hat{\beta}_0 \hat{\beta}_1}} = \quad - 2\sum_{i=1}^{n} $$
 
 y 
 
