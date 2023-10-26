@@ -56,7 +56,7 @@ $$\hat{\beta}_1 = \frac{\sum {y_i x_i} - \frac {(\sum y_i)(\sum x_i)}{n}}{\sum {
 
 en donde
 
-$\overline {y} = \frac{1}{n}\sum_{i=1}^{2} {y_i}$ y $\overline {x} = \frac{1}{n}\sum_{i=1}^{2} {x_i}$
+$$\overline {y} = \frac{1}{n}{\sum_{i=1}^{2}} {y_i}$ y $\overline {x} = \frac{1}{n}\sum_{i=1}^{2} {x_i}$$
 
 son los promedios de $y_i$ y $x_i$, respectivamente. Por consiguiente,$\hat{\beta}_0$ y $\hat{\beta}_1$ en las ecuaciones $(1.6)$ y $(1.7)$ son los **estimadores por mínimos cuadrados** de la ordenada al origen y la pendiente, respectivamente. El modelo ajustado de regresion lineal simple es, entonces
 
