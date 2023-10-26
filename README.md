@@ -48,3 +48,8 @@ $$n\hat{\beta}_0 + \hat{\beta}_1\sum x_i = \sum y_i$$
 
 $$\hat{\beta}_0 \sum x_i + \hat{\beta}_1\sum x_i^2 = \sum y_i x_i \tag{1.5}$$
 
+Las ecuaciones $(1.5)$ son llamadas **ecuaciones normales de mínimos cuadrados**. Su solución es la siguiente:
+
+$$\hat{\beta}_0 = \overline{y} - \hat{\beta}_1\overline{x} \tag{1.6}$$
+
+$$\hat{\beta}_1 = \frac{\sum {y_i x_i} - \frac {(\sum y_i)(\sum x_i)}{n}}{\sum{x_i^2} - \frac{\sum {x_i}}^2{n}}$$
