@@ -10,11 +10,11 @@ donde la ordenada al origen $\beta_0$ y la pendiente $beta_1$ con constantes des
 
 Conviene considerar que el regresor $x$ está controlado por el *analista de datos*, y se puede medir con error despreciable, mientras que la respuesta $y$ es una **variable aleatoria**. Con lo que hay una distribución de probabilidades de $y$ para cada valor posible de $x$. La media de esta distribución es 
 
-$$E(y|x) = \beta_0 + \beta_1x$$
+$$E(y|x) = \beta_0 + \beta_1x \tag{1.2a}$$
 
 y la varianza es
 
-$$Var(y|x) = Var(\beta_0 + \beta_1x + \epsilon) = \sigma^2$$
+$$Var(y|x) = Var(\beta_0 + \beta_1x + \epsilon) = \sigma^2 \tag{1.2b}$$
 
 A los parametros $\beta_0$ y $\beta_1$ se les suele llamar **coeficientes de regresión**.
 
