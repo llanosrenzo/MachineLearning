@@ -44,7 +44,7 @@ $${{\frac{\partial S}{\partial\beta_1}\Bigg|}_{\hat{\beta}_0 \hat{\beta}_1}} =-2
 
 Se simplifican estas dos ecuaciones y se obtiene
 
-$$n\hat{\beta}_0 + {\hat{\beta}_{1}} {\sum_{i=1}$$
+$$n\hat{\beta}_0 + {\hat{\beta}_{1}} {\sum_{i=1}}$$
 
 $$n\hat{\beta}_0 + \hat{\beta}_1\sum_{i=1}^{n}x_i = \sum_{i=1}^{n}y_i$$
 
