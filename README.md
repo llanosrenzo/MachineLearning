@@ -44,6 +44,6 @@ $${{\frac{\partial S}{\partial \beta_1}\Bigg|}_{\hat{\beta}_0 \hat{\beta}_1}} =-
 
 Se simplifican estas dos ecuaciones y se obtiene
 
-$$n\hat{\beta}_0 +\hat{\beta}_1\sum_{i=1}^{n}x_i = \sum_{i=1}^{n}y_i$$
+$$n\hat{\beta}_0 + \hat{\beta}_1\sum_{i=1}^{n}x_i = \sum_{i=1}^{n}y_i$$
 
 $$\hat{\beta}_0\sum_{i=1}^{n}x_i + \hat{\beta}_1\sum_{i=1}^{n}x_i^2 = \sum_{i=1}^{n}y_i x_i \tag{1.5}$$
