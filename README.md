@@ -74,7 +74,7 @@ $$S_{xy} = \sum {y_i x_i} - \frac{(\sum y_i)(\sum x_i)}{n} = \sum y_i(x_i - \ove
 
 Entonces, una forma de expresarse la ecuación $(1.7)$ es
 
-$$\hat{\beta}_1 = {\frac{S_{xy}}{S_{xx}}} \tag{1.11}$$
+$$\hat{\beta}_{1} = {\frac{S_{xy}}{S_{xx}}} \tag{1.11}$$
 
 La diferencia entre el valor observado  $y_i$ y el valor ajustado correspondiente $\hat{y}_i$ se llama **residual**. Matematicamente, el i_ésimo residual es
 
