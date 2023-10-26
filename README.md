@@ -23,7 +23,7 @@ A los parametros $\beta_0$ y $\beta_1$ se les suele llamar **coeficientes de reg
 Los parámetros $\beta_0$ y $\beta_1$ son desconocidos, y se deben estimar con los datos de la muestra. 
 Supongamos que hay n pares de datos: $(x_1,y_1),(x_2,y_2),...,(x_n,y_n)$.
 
-### **1.2.1 Estimación de** $\beta_0$ **y** $\beta_1$
+### **1.2.1 Estimación de Parametros**
 
 Para estimar $\beta_0$ y $\beta_1$ se usa el **método de mínimos cuadrados**. Esto es, se estiman $\beta_0$ y $\beta_1$ tales que la suma de los cuadrados de las diferencias entre las observaciones $y_i$ y la linea recta sea mínima.Según la ecuación $(1.1)$, se puede escribir
 
@@ -35,4 +35,4 @@ $$S(\beta_0, \beta_1) = \sum_{i=1}^{n}(y_i - \beta_0 - \beta_1x_i)^2 \tag{1.4}$$
 
 Los estimadores, por mínimos cuadrados, de $\beta_0$ y $\beta_1$, que se designarán por $\hat{\beta}_0$ y $\hat{\beta}_1$, deben satisfacer
 
-$${\frac{S}{\beta_0}\|}_{\hat{\beta}_0  \hat{\beta}_1} = -2\sum_{i=1}^{n}(y_i - \hat{\beta}_0 - \hat{\beta}_1x_i)$$
+$${\frac{S}{\beta_0}|}_{\hat{\beta}_0  \hat{\beta}_1} = -2 \sum_{i=1}^{n}(y_i - \hat{\beta}_0 - \hat{\beta}_1x_i) = 0$$
