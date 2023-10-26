@@ -56,10 +56,35 @@ $$\hat{\beta}_1 = \frac{\sum {y_i x_i} - \frac {(\sum y_i)(\sum x_i)}{n}}{\sum {
 
 en donde
 
-$$\overline {y} = \frac{1}{n}{\sum_{i=1}^{2}} {y_i} ,\quad  \overline {x} = \frac{1}{n}\sum_{i=1}^{2} {x_i}$$
+$$\overline {y} = \frac{1}{n}{\sum_{i=1}^{2}} {y_i} \quad ,\quad  \overline {x} = \frac{1}{n}\sum_{i=1}^{2} {x_i}$$
 
 son los promedios de $y_i$ y $x_i$, respectivamente. Por consiguiente,$\hat{\beta}_0$ y $\hat{\beta}_1$ en las ecuaciones $(1.6)$ y $(1.7)$ son los **estimadores por mínimos cuadrados** de la ordenada al origen y la pendiente, respectivamente. El modelo ajustado de regresion lineal simple es, entonces
 
 $$\overline {y} = \hat{\beta}_0 + \hat{\beta}_1{x} \tag{1.8}$$
 
 La ecuación $(2.8)$ produce un estimado puntual, de la media de $y$ para una determinada $x$.
+
+Como el denominador de la ecuación $(2.7)$ es la suma corregida de cuadrados de las $x_i$ y el numerador es la suma corregida de los productos cruzados de $x_i$ y $y_i$, estas ecuaciones se pueden escribir en una forma más compacta como sigue:
+
+$$S_{xx} = \sum x_i^2 - \frac{(\sum x_i)^2}{n} = \sum (x_i - \overline {x})^2 \tag {2.9}$$
+
+y
+
+$$S_{xy} = \sum {y_i x_i} - \frac{(\sum y_i)(\sum x_i)}{n} = \sum y_i(x_i - \oveline {x}) \tag{1.10}$$
+
+Entonces, una forma de expresarse la ecuación $(2.7)$ es
+
+$$\hat{\beta}_1 = \frac{S_{xy}}{S_{xx}} \tag{1.11}$$
+
+La diferencia entre el valor observado  $y_i$ y el valor ajustado correspondiente $\hat{y}_i$ se llama **residual**. Matematicamente, el i_ésimo residual es
+
+$$e_i = y_i - \hat{y}_i = y_i - (\hat{\beta}_0 + \hat{\beta}_1 x_i), \quad i=1,2,..,,n \tag{1.12}$$
+
+Los residuales tienen un papel muy importante para investigar la **adecuación** del modelo de regresión ajustado.
+
+### **1.2.2 Propiedades de los estimadores por mínimos cuadrados y el modelo ajustado de regresión**
+
+### **1.2.3 Estimacion de ** 
+$\sigma^2$
+
+## **1.3 Prueba de Hipotesis**
