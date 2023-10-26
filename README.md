@@ -34,5 +34,7 @@ Así, el criterio de mínimos cuadrados es
 $$S(\beta_0, \beta_1) = \sum_{i=1}^{n}(y_i - \beta_0 - \beta_1x_i)^2 \tag{1.4}$$
 
 Los estimadores, por mínimos cuadrados, de $\beta_0$ y $\beta_1$, que se designarán por $\hat{\beta}_0$ y $\hat{\beta}_1$, deben satisfacer
+
 $${\frac{S}{\beta_0}|}$$
+
 $${\frac{S}{\beta_0}|}_{\hat{\beta}_0  \hat{\beta}_1} = -2 \sum_{i=1}^{n}(y_i - \hat{\beta}_0 - \hat{\beta}_1x_i) = 0$$
