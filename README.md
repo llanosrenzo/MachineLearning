@@ -93,6 +93,13 @@ donde $c_i = (x_i - \overline{x})/S_{xx}$ , para $i=1,2,...,n$
 Los estimadores $\hat{\beta}_0$ y $\hat{\beta}_1$ por mínimos cuadrados son **estimadores insesgados** de los parámetros $\beta_0$ y $\beta_1$ del modelo. Para demostrarlo con $\hat{\beta}_1$, considérese
 
 $$E(\hat{\beta}_1) = E\Bigg(\sum{c_iy_i}\Bigg) = \sum {c_iE(y_i)}$$
+$$= \sum c_i(\beta_0 + \beta_1 x_i) = \beta_0\sum c_i + \beta_1 \sum c_i x_i$$
+
+ya que , se supuso que, $E(e_i) = 0$. Ahora se puede demostrar en forma directa que 
+
+$$\sum c_i = \sum \Bigg( \frac{x_i - \overline x}{S_{xx}} \Bigg) = \frac{1}{S_{xx}}(\sum x_i -\sum \overline {x})$$
+
+$$= \frac {1}{S_{xx}}(n\overline{x} - n\overline{x}) = 0$$
 
 ### **1.2.3 Estimacion de** 
 $\sigma^2$
