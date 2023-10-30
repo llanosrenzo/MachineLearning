@@ -102,6 +102,22 @@ $$\sum c_i = \sum \Bigg( \frac{x_i - \overline x}{S_{xx}} \Bigg) = \frac{1}{S_{x
 
 $$= \frac {1}{S_{xx}}(n\overline{x} - n\overline{x}) = 0$$
 
+y
+
+$$\sum {c_i x_i} = \frac{1}{S_{xx}} \sum (x_i - \overline{x})x_i = \frac{1}{S_{xx}} S_{xx} = 1$$
+
+entonces 
+
+$$E(\hat{beta}_1) = \beta_1$$
+
+Esto es, si se supones que el modelo es correcto [que $E(y_i) = \beta_0 + \beta_1 x_i$], entonces $\hat{\beta}_1$ es un estimador insesgado de $\beta_1$. De igual manera se puede demostrar que $\hat{\beta}_0$ es un estimador insesgado de $\beta_0$, es decir,
+
+$$E(\hat{\beta}_0) = \beta_0$$
+
+- Demostracion:
+
+
+
 ### **1.2.3 Estimacion de** 
 $\sigma^2$
 
