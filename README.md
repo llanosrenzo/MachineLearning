@@ -74,7 +74,7 @@ $$S_{xy} = \sum {y_i x_i} - \frac{(\sum y_i)(\sum x_i)}{n} = \sum y_i(x_i - \ove
 
 Entonces, una forma de expresarse la ecuación $(1.7)$ es
 
-$$\hat{\beta}_{1} = {\frac{S_xy}{S_xx}} \tag{1.11}$$
+$$\hat{\beta}_{1} = {\frac{S_{xy}}{S_xx}} \tag{1.11}$$
 
 La diferencia entre el valor observado  $y_i$ y el valor ajustado correspondiente $\hat{y}_i$ se llama **residual**. Matematicamente, el i_ésimo residual es
 
@@ -83,6 +83,16 @@ $$e_i = y_i - \hat{y}_i = y_i - (\hat{\beta}_0 + \hat{\beta}_1 x_i), \quad i=1,2
 Los residuales tienen un papel muy importante para investigar la **adecuación** del modelo de regresión ajustado.
 
 ### **1.2.2 Propiedades de los estimadores por mínimos cuadrados y el modelo ajustado de regresión**
+
+Los estimadores por cuadrados mínimos $\hat{\beta}_0$ y $\hat{\beta}_1$ tienen algunas propiedades importantes. Primero, observese que, según las ecuaciones $(1.6)$ y $(1.7)$, $\hat{\beta}_0$ y $\hat{\beta}_1$ son **combinaciones lineales** de las observaciones $y_i$.
+
+$$\hat{\beta}_1 = \frac{S_{xy}}{S_{xx}} = \sum_{i=1}^{n} c_i y_i$$
+
+donde $c_i = (x_i - \overline{x})/S_{xx}$ , para $i=1,2,...,n$
+
+Los estimadores $\hat{\beta}_0$ y $\hat{\beta}_1$ por mínimos cuadrados son **estimadores insesgados** de los parámetros $\beta_0$ y $\beta_1$ del modelo. Para demostrarlo con $\hat{\beta}_1$, considérese
+
+$$E(\hat{\beta}_1) = E(\sum_{i=1}^{n}{c_iy_i}) = \sum_{i=1}^{n} {c_iE(y_i)}$$
 
 ### **1.2.3 Estimacion de** 
 $\sigma^2$
