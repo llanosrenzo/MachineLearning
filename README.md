@@ -108,7 +108,7 @@ $$\sum {c_i x_i} = \frac{1}{S_{xx}} \sum (x_i - \overline{x})x_i = \frac{1}{S_{x
 
 entonces 
 
-$$E(\hat{beta}_1) = \beta_1$$
+$$E(\hat{\beta}_1) = \beta_1$$
 
 Esto es, si se supones que el modelo es correcto [que $E(y_i) = \beta_0 + \beta_1 x_i$], entonces $\hat{\beta}_1$ es un estimador insesgado de $\beta_1$. De igual manera se puede demostrar que $\hat{\beta}_0$ es un estimador insesgado de $\beta_0$, es decir,
 
