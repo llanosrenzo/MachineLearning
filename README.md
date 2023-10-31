@@ -114,7 +114,23 @@ Esto es, si se supones que el modelo es correcto [que $E(y_i) = \beta_0 + \beta_
 
 $$E(\hat{\beta}_0) = \beta_0$$
 
-- Demostracion:
+Tenemos la siguiente demostracion:
+
+$$y_i = \beta_0 + \beta_1x_i +e_i$$
+
+$$\sum y_i = \sum(\beta_0 + \beta_1x_i +e_i)$$
+
+$$\sum y_i = n \beta_0 + \beta_1 \sum x_i + \sum e_i$$
+
+$$\frac{\sum y_i}{n} = \beta_0 +\beta_1 \frac{\sum x_i}{n}$$
+
+$$\overline {y} = \beta_0 + \beta_1 \overline{x}$$
+
+Luego,
+
+$$E(\hat{\beta}_0) = E[\overline{y} - \hat{\beta}_1\overline{x}]=E[\overline {y}] - \overline{x} E[\hat{\beta}_1]$$
+
+$$= \overline{y} - \overline {x}\beta_1 = \beta_0$$
 
 
 
