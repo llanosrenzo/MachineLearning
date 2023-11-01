@@ -199,9 +199,9 @@ $$\sum{y_i^2} - n{\overline{y}^2} = \sum(y_i - \overline{y})^2 = SS_{T}$$
 
 es justo la suma de cuadrados corregida, de las observaciones de la respuesta, por lo que
 
-$$SS_{res} = SS_{T} - \hat{\beta}_1 S_{xy} \tag{1.18}$$
+$${SS_{res}} = SS_{T} - \hat{\beta}_1 {S_{xy}} \tag{1.18}$$
 
-La suma de cuadrados de residuales tiene $n-2$ grados de libertad, porque dos grados de libertad se asocian con los estimados $\beta_0$ y $\beta_1$ que se usan para obtener $\hat{y}_i$. Tenemos el valor esperadode $SS_{Res}$ es $E(SS_{Res}) = (n-2)\sigma^2$, por lo que un **estimador insesgados de** $\sigma^2$ es 
+La suma de cuadrados de residuales tiene $n-2$ grados de libertad, porque dos grados de libertad se asocian con los estimados $\beta_0$ y $\beta_1$ que se usan para obtener $\hat{y}_i$. Tenemos el valor esperadode ${SS_{Res}}$ es $E(SS_{Res}) = (n-2)\sigma^2$, por lo que un **estimador insesgados de** $\sigma^2$ es 
 
 $$\hat{\sigma}^2 = \frac{SS_{Res}}{n-2} = MS_{Res} \tag{1.19}$$
 
