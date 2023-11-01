@@ -140,9 +140,8 @@ $$= \sum {c_i^2} Var(y_i) \tag{1.13}$$
 
 ya que las observaciones $y_i$ son no correlacionadas, por lo que la varianza de la suma es igual a la suma de las varianzas. La varianza de cada término en la suma es $c_i^{2} Var(y_i)$ y hemos supuesto que $Var(y_i)= \sigma^2$; en consecuencia,
 
-$$Var(\hat{\beta}_1) = \sigma^2 \sum {c_i^2} = \frac{\sigma^2 \sum(x_i - \overline{x})^2}{S_{x}^2}$$
+$$Var(\hat{\beta}_1) = \sigma^2 \sum {c_i^2} = \frac{\sigma^2 \sum(x_i - \overline{x})^2}{S_x^2}$$
 
- = \frac{\sigma^2 \sum(x_i - \overline{x})^2}{{S_{xx}}^2}$$
 
 $$= \frac{\sigma^2}{S_{xx}} \tag{1.14}$$
 
@@ -164,7 +163,7 @@ Hay varias otras propiedades útiles por mínimos cuadrados:
 
 **1.** La suma de los residuales en cualquier modelño de regresión que contenga una ordenada al origen $\beta_0$ siempre es igual a cero, esto es,
 
-$$\sum_{i=1}^{n} (y_i \hat{y}_i) = \sum_{i=1}^{n} e_i = 0$$
+$$\sum_{i=1}^{n} (y_i - \hat{y}_i) = \sum_{i=1}^{n} e_i = 0$$
 
 **2.** La suma de los valores observados $y_i$ es igual a la suma de los valores ajustados $\hat{y}_i$
 
