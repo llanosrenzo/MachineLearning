@@ -132,9 +132,63 @@ $$E(\hat{\beta}_0) = E[\overline{y} - \hat{\beta}_1\overline{x}]=E[\overline {y}
 
 $$= \overline{y} - \overline {x}\beta_1 = \beta_0$$
 
+La varianza de $\hat{\beta}_1$ se calcula como sigue:
 
+$$Var(\hat{\beta}_1) = Var\Bigg( \sum{c_i y_i}\Bigg)$$
+
+$$= \sum {c_i^2} Var(y_i) \tag{1.13}$$
+
+ya que las observaciones $y_i$ son no correlacionadas, por lo que la varianza de la suma es igual a la suma de las varianzas. La varianza de cada término en la suma es $c_i^{2} Var(y_i)$ y hemos supuest que $Var(y_i)= \sigma^2$; en consecuencia,
+
+$$Var(\hat{\beta}_1) = \sigma^2 \sum c_i^2 = \frac{\sigma^2 \sum (x_i - \overline{x})^2}{S_{xx}^2}$$
+
+$$= \frac{\sigma^2}{S_{xx}} \tag{1.14}$$
+
+La varianza de $\hat{\beta}_0$ es 
+
+$$Var(\hat{\beta}_0) = Var(\overline{y} - \hat{\beta}_1 \overline{x})$$
+
+$$= Var(\overline{y}) + \overline{x}^2 Var(\hat{\beta}_1) - 2\overeline{x} Cov(\overline{y}\hat{\beta}_1$$
+
+Ahora bien, la varianza de $\overline{y}$ no es más que $Var(\overline{y}) = \sigma^2/n$, y se puede demostrar que la co-varianza entre $\overline{y}$ y $\hat{\beta}_1$ es cero. Así,
+
+$$Var(\hat{\beta}_0) = Var(\overline {y}) + \overline{x}^2Var(\hat{\beta}_1)$$
+
+$$= \sigma^2 \Bigg( \frac{1}{n} + \frac{\overline{x}^2}{S_{xx}} \Bigg) \tag{1.15}$$
+
+Otro resultado importante acerca de la calidad de los estimadores por mínimos cuadrados $\hat{\beta}_0$ y $\hat{\beta}_1$ es el **teorema de Gauss-Markov**, que establece que para el modelo de regresión (1.1) con las hipótesis $E(e)=0$, $Var(e) = \sigma^2$ y con errores no correlacionados, los estimadores por mínimos cuadrados son insesgados y tienen varianza mìnima en comparación con todos los demás estimadores insesgados que sean combinaciones lineales de las $y_i$. Con frecuencia se dice que los estimadores por mínimos cuadrados son los **estimadores lineales insesgados óptimos**, donde "óptimos" implica que son de varianza mínima.
+
+Hay varias otras propiedades útiles por mínimos cuadrados:
+
+**1.** La suma de los residuales en cualquier modelño de regresión que contenga una ordenada al origen $\beta_0$ siempre es igual a cero, esto es,
+
+$$\sum_{i=1}^{n} (y_i \hat{y}_i) = \sum_{i=1}^{n} e_i = 0$$
+
+**2.** La suma de los valores observados $y_i$ es igual a la suma de los valores ajustados $\hat{y}_i$
+
+$$\sum_{i=1}^{n} y_i = \sum_{i=1}^{n} \hat{y}_i$$
+
+**3.** La línea de regresión de mínimos cuadrados siempre pasa por el **centroide** de los datos, que es el punto $(\overline{x}, \overline{y})$.
+
+**4.** La suma de los residuales, ponderados por el valor correspondiente de la variable regresora, siempre es igual a cero:
+
+$$\sum_{i=1}^{n} {x_i e_i} = 0$$
+
+**5.** La suma de los residuales,ponderados por el valor ajustado correspondiente, siempre es igual a cero:
+
+$$\sum_{i=1}^{n} {\hat{y}_i e_i} = 0$$
 
 ### **1.2.3 Estimacion de** 
 $\sigma^2$
 
 ## **1.3 Prueba de Hipotesis**
+
+## **Coeficiente de Determinación**
+
+Tenemos lo siguiente 
+
+$$R^2 = \frac{SS_R}{SS_T} = 1 - \frac{SS_Res}{SS_T} 	\tag{1.47}$$
+
+se llama **coeficiente de determinación**. 
+
+$R^2$ se interpreta, con frecuencia, la proporción de la variación explicada por el regresor $x$. Ya que $0<= SS_{Res} <= SS_T$, entonces $0 <= R^2 <=1$
