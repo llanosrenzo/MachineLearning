@@ -163,7 +163,7 @@ Hay varias otras propiedades útiles por mínimos cuadrados:
 
 **1.** La suma de los residuales en cualquier modelño de regresión que contenga una ordenada al origen $\beta_0$ siempre es igual a cero, esto es,
 
-$$\sum_{i=1}^{n} {(y_i - \hat{y}_i)} = \sum{e_i}$$
+$$\sum_{i=1}^{n} {(y_i - \hat{y}_i)} = \sum_{i=1}^{n} {e_i} = 0$$
 
 $$\sum_{i=1}^{n}(y_i - \hat{y}_i) = \sum_{i=1}^{n} e_i = 0$$
 
