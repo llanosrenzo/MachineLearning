@@ -165,7 +165,6 @@ Hay varias otras propiedades útiles por mínimos cuadrados:
 
 $$\sum_{i=1}^{n} {(y_i - \hat{y}_i)} = \sum {e_i} = 0$$
 
-$$\sum_{i=1}^{n}(y_i - \hat{y}_i) = \sum_{i=1}^{n} e_i = 0$$
 
 **2.** La suma de los valores observados $y_i$ es igual a la suma de los valores ajustados $\hat{y}_i$
 
@@ -181,8 +180,34 @@ $$\sum_{i=1}^{n} {x_i e_i} = 0$$
 
 $$\sum_{i=1}^{n} {\hat{y}_i e_i} = 0$$
 
-### **1.2.3 Estimacion de** 
+### **1.2.3 Estimacion de $\sigma^2$** $\sigma^2$
 $\sigma^2$
+
+Además de estimar $\beta_0$ y $\beta_1$, se requiere un estimado de $\sigma^2$ para probar hipótesis y formar estimados de intervalo pertinentes al modelo de regresión. El estimado de $\sigma^2$ se obtiene de la suma de cuadrados de residuales, o la suma de cuadrados de error:
+
+$$SS_{res} = \sum {e_i^2} = \sum {(y_i - \hat{y}_i)^2} \tag{1.16}$$
+
+Se puede deducir una formula cómoda para calcular $SS_{Res}$ sustituyendo $\hat{y}_i = \hat{\beta}_0 + \hat{\beta}_{1} x_i$ en la ecuación $(1.16)$, y simplificando
+
+Así se llega a
+
+$$SS_{Res} = \sum{y_i^2} = n\overline{y}^2 - \hat{\beta}_1 S_{xy} \tag{1.17}$$
+
+Pero
+
+$$\sum{y_i^2} - n{\overline{y}^2} = \sum(y_i - \overline{y})^2 = SS_{T}$$
+
+es justo la suma de cuadrados corregida, de las observaciones de la respuesta, por lo que
+
+$$SS_{res} = SS_{T} - \hat{\beta}_1 S_{xy} \tag{1.18}$$
+
+La suma de cuadrados de residuales tiene $n-2$ grados de libertad, porque dos grados de libertad se asocian con los estimados $\beta_0$ y $\beta_1$ que se usan para obtener $\hat{y}_i$. Tenemos el valor esperadode $SS_{Res}$ es $E(SS_{Res}) = (n-2)\sigma^2$, por lo que un **estimador insesgados de** $\sigma^2$ es 
+
+$$\hat{\sigma}^2 = \frac{SS_{Res}}{n-2} = MS_{Res} \tag{1.19}$$
+
+La expresion $MS_{Res}$ se llama **cuadrado medio residual**. La raiz cuadrada de $\hat{\sigma}^2$ se llama, el **error estándar de la regresión**.
+
+
 
 ## **1.3 Prueba de Hipotesis**
 
