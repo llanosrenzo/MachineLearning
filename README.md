@@ -138,9 +138,9 @@ $$Var(\hat{\beta}_1) = Var\Bigg( \sum{c_i y_i}\Bigg)$$
 
 $$= \sum {c_i^2} Var(y_i) \tag{1.13}$$
 
-ya que las observaciones $y_i$ son no correlacionadas, por lo que la varianza de la suma es igual a la suma de las varianzas. La varianza de cada término en la suma es $c_i^{2} Var(y_i)$ y hemos supuest que $Var(y_i)= \sigma^2$; en consecuencia,
+ya que las observaciones $y_i$ son no correlacionadas, por lo que la varianza de la suma es igual a la suma de las varianzas. La varianza de cada término en la suma es $c_i^{2} Var(y_i)$ y hemos supuesto que $Var(y_i)= \sigma^2$; en consecuencia,
 
-$$Var(\hat{\beta}_1) = \sigma^2 \sum c_i^2 = \frac{\sigma^2 \sum (x_i - \overline{x})^2}{S_{xx}^2}$$
+$$Var(\hat{\beta}_1) = \sigma^2 \sum c_i^2 = \frac{\sigma^2 \sum(x_i - \overline{x})^2}{{S_{xx}}^2}$$
 
 $$= \frac{\sigma^2}{S_{xx}} \tag{1.14}$$
 
@@ -148,7 +148,7 @@ La varianza de $\hat{\beta}_0$ es
 
 $$Var(\hat{\beta}_0) = Var(\overline{y} - \hat{\beta}_1 \overline{x})$$
 
-$$= Var(\overline{y}) + \overline{x}^2 Var(\hat{\beta}_1) - 2\overeline{x} Cov(\overline{y}\hat{\beta}_1$$
+$$= Var(\overline{y}) + \overline{x}^2 Var(\hat{\beta}_1) - 2\overline{x} Cov(\overline{y}\hat{\beta}_1)$$
 
 Ahora bien, la varianza de $\overline{y}$ no es más que $Var(\overline{y}) = \sigma^2/n$, y se puede demostrar que la co-varianza entre $\overline{y}$ y $\hat{\beta}_1$ es cero. Así,
 
