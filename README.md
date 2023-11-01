@@ -140,7 +140,7 @@ $$= \sum {c_i^2} Var(y_i) \tag{1.13}$$
 
 ya que las observaciones $y_i$ son no correlacionadas, por lo que la varianza de la suma es igual a la suma de las varianzas. La varianza de cada término en la suma es $c_i^{2} Var(y_i)$ y hemos supuesto que $Var(y_i)= \sigma^2$; en consecuencia,
 
-$$Var(\hat{\beta}_1) = \sigma^2 \sum {c_i^2} = \frac{1}{{S^2_{xx}}}$$
+$$Var(\hat{\beta}_1) = \sigma^2 \sum {c_i^2} = \frac{1}{{S_{xx}^2}}$$
 
  = \frac{\sigma^2 \sum(x_i - \overline{x})^2}{{S_{xx}}^2}$$
 
