@@ -180,7 +180,7 @@ $$\sum_{i=1}^{n} {x_i e_i} = 0$$
 
 $$\sum_{i=1}^{n} {\hat{y}_i e_i} = 0$$
 
-### **1.2.3 Estimacion de $\sigma^2$** $\sigma^2$
+### **1.2.3 Estimacion de**\n
 $\sigma^2$
 
 Además de estimar $\beta_0$ y $\beta_1$, se requiere un estimado de $\sigma^2$ para probar hipótesis y formar estimados de intervalo pertinentes al modelo de regresión. El estimado de $\sigma^2$ se obtiene de la suma de cuadrados de residuales, o la suma de cuadrados de error:
@@ -191,7 +191,7 @@ Se puede deducir una formula cómoda para calcular $SS_{Res}$ sustituyendo $\hat
 
 Así se llega a
 
-$$SS_{Res} = \sum{y_i^2} = n\overline{y}^2 - \hat{\beta}_1 S_{xy} \tag{1.17}$$
+$$SS_{res} = \sum{y_i^2} = n{\overline{y}^2} - \hat{\beta}_1 S_{xy} \tag{1.17}$$
 
 Pero
 
@@ -216,10 +216,25 @@ Supongamos que se desea probar la hipótesis que la pendiente es igual a una con
 
 $$H_0 : \beta_1 = \beta_{10}$$
 
-$$H_0 : \beta_1 \neq \beta_{10}$$
+$$H_1 : \beta_1 \neq \beta_{10}$$
 
 Comúnmente se desconoce $\sigma^2$. Se sabe que $MS_{res}$ es un estimador insesgado de $\sigma^2$. Tenemos que $(n-2)MS_{res}/\sigma^2$ tiene una distribución $\chi_{n-2}^2$ y que $MS_{res}$ Y $\hat{\beta}_1$ son independientes.
 
+Estadístico de Prueba *t*
+
+$$t_0 = \frac{\hat{\beta}_1 - \beta_k}{\sqrt{MS_{res}/S_{xx}}}$$
+
+sigue una distribucion $t_{n-2}$ si es cierta la hipotesis nula $H_0 : \beta_1 = \beta_k$
+
+Se rechaza la hipótesis nula si
+
+$$|t_0| > t_{\alpha /2 , n-2}$$
+
+También se podría usar el método del valor *P* para tomar la decisión.
+
+El denominador del estadistico $t_0$ en la ecuación se llama con frecuencia el **error estándar estimado**, o más sencillamente el **error estándar** de la pendiente.
+
+$$se(\hat{\beta}_1) = \sqrt{\frac{MS_{res}}{S_{xx}}}$$
 ## **Coeficiente de Determinación**
 
 Tenemos lo siguiente 
@@ -228,4 +243,4 @@ $$R^2 = \frac{SS_R}{SS_T} = 1 - \frac{SS_Res}{SS_T} 	\tag{1.47}$$
 
 se llama **coeficiente de determinación**. 
 
-$R^2$ se interpreta, con frecuencia, la proporción de la variación explicada por el regresor $x$. Ya que $0<= SS_{Res} <= SS_T$, entonces $0 <= R^2 <=1$
+$R^2$ se interpreta, con frecuencia, la proporción de la variación explicada por el regresor $x$. Ya que $0 \leq SS_{Res} \leq SS_T$, entonces $0 \leq R^2 \leq 1$
