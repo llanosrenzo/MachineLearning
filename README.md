@@ -211,6 +211,15 @@ La expresion $MS_{Res}$ se llama **cuadrado medio residual**. La raiz cuadrada d
 
 ## **1.3 Prueba de Hipotesis**
 
+**1.3.1 Uso de las pruebas** *t*
+Supongamos que se desea probar la hipótesis que la pendiente es igual a una constante, por ejemplo, a $\beta_{10}$
+
+$$H_0 : \beta_1 = \beta_{10}$$
+
+$$H_0 : \beta_1 \neq \beta_{10}$$
+
+Comúnmente se desconoce $\sigma^2$. Se sabe que $MS_{res}$ es un estimador insesgado de $\sigma^2$. Tenemos que $(n-2)MS_{res}/\sigma^2$ tiene una distribución $\chi_{n-2}^2$ y que $MS_{res}$ Y $\hat{\beta}_1$ son independientes.
+
 ## **Coeficiente de Determinación**
 
 Tenemos lo siguiente 
