@@ -86,7 +86,7 @@ Los residuales tienen un papel muy importante para investigar la **adecuación**
 
 Los estimadores por cuadrados mínimos $\hat{\beta}_0$ y $\hat{\beta}_1$ tienen algunas propiedades importantes. Primero, observese que, según las ecuaciones $(1.6)$ y $(1.7)$, $\hat{\beta}_0$ y $\hat{\beta}_1$ son **combinaciones lineales** de las observaciones $y_i$.
 
-$$\hat{\beta}_1 = \frac{S_xy}{S_xx} = \sum_{i=1}^n c_i y_i$$
+$$\hat{\beta}_1 = \frac{S_xy}{S_xx} = \sum c_i y_i$$
 
 donde $c_i = (x_i - \overline{x})/S_{xx}$ , para $i=1,2,...,n$
 
