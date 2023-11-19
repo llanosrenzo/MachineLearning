@@ -44,7 +44,7 @@ $${{\frac{\partial S}{\partial\beta_1}\Bigg|}_{\hat{\beta}_0 , \hat{\beta}_1}} =
 
 Se simplifican estas dos ecuaciones y se obtiene
 
-$$n\hat{\beta}_0 + \hat{\beta}_1\sum x_i = \sum y_i$$
+$$n\hat{\beta}_0 + \hat{\beta}_1\sum_{i=1}^n x_i = \sum_{i=1}^n y_i$$
 
 $$\hat{\beta}_0 \sum x_i + \hat{\beta}_1\sum x_i^2 = \sum y_i x_i \tag{1.5}$$
 
@@ -56,7 +56,7 @@ $$\hat{\beta}_1 = \frac{\sum {y_i x_i} - \frac {(\sum y_i)(\sum x_i)}{n}}{\sum {
 
 en donde
 
-$$\overline {y} = \frac{1}{n}{\sum_{i=1}^{2}} {y_i} \quad ,\quad  \overline {x} = \frac{1}{n}\sum_{i=1}^{2} {x_i}$$
+$$\overline {y} = \frac{1}{n}{\sum_{i=1}^{n}} {y_i} \quad ,\quad  \overline {x} = \frac{1}{n}\sum_{i=1}^{n} {x_i}$$
 
 son los promedios de $y_i$ y $x_i$, respectivamente. Por consiguiente,$\hat{\beta}_0$ y $\hat{\beta}_1$ en las ecuaciones $(1.6)$ y $(1.7)$ son los **estimadores por mínimos cuadrados** de la ordenada al origen y la pendiente, respectivamente. El modelo ajustado de regresion lineal simple es, entonces
 
