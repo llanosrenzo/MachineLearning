@@ -4,6 +4,8 @@ Un **modelo no supervisado** es un tipo de algoritmo de aprendizaje automático 
 
 ![Ejemplo de Clustering](https://fastercapital.co/es/i-es/Aprendizaje-no-supervisado--descubrir-patrones-ocultos-con-dlom--Introducci-n-al-aprendizaje-no-supervisado.webp) <!-- Reemplaza la URL por la de tu imagen -->
 
+https://towardsdatascience.com/mastering-customer-segmentation-with-llm-3d9008235f41
+
 ## Características Clave
 
 - **Sin Etiquetas**: No se necesita información previa sobre las categorías de los datos.
